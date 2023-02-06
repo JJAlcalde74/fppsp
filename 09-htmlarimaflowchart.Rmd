@@ -1,0 +1,3 @@
+```{r arimaflowchart, echo=FALSE, fig.cap="General process for forecasting using an ARIMA model."}
+knitr::include_graphics("figs/arimaflowchart.png")
+```

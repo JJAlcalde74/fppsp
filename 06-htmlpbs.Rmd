@@ -1,0 +1,3 @@
+```{r pbsdiagram, echo=FALSE, fig.cap="Process for producing PBS forecasts.",fig.env="figure*"}
+knitr::include_graphics("figs/PBSprocess.png")
+```

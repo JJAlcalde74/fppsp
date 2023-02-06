@@ -1,0 +1,22 @@
+<table style='width:auto;' align='center'>
+<tr style='border-top-width: 0px !important; background-color:#ffffff;'>
+<td align="right">ARIMA</td>
+<td align="center"><span class="math inline">\(\underbrace{(p, d, q)}\)</span></td>
+<td align="center"><span class="math inline">\(\underbrace{(P, D, Q)_{m}}\)</span></td>
+</tr>
+<tr style='border-top-width: 0px !important;background-color:#ffffff;'>
+<td align="right"></td>
+<td align="center"><span class="math inline">\({\uparrow}\)</span></td>
+<td align="center"><span class="math inline">\({\uparrow}\)</span></td>
+</tr>
+<tr style='border-top-width: 0px !important;background-color:#ffffff;'>
+<td align="right"></td>
+<td align="center">Non-seasonal part</td>
+<td align="center">Seasonal part</td>
+</tr>
+<tr style='border-top-width: 0px !important;background-color:#ffffff;'>
+<td align="right"></td>
+<td align="center">of the model</td>
+<td align="center">of the model</td>
+</tr>
+</table>

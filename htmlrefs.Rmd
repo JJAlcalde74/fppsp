@@ -1,0 +1,130 @@
+# Appendix: For instructors {-}
+
+### Solutions to exercises {-}
+
+Solutions to exercises are password protected and only available to instructors. Please [complete this request form](https://goo.gl/forms/nJsXgojZlGPhZ6uu1). You will need to provide evidence that you are an instructor and not a student (e.g., a link to a university website listing you as a member of faculty). Please also use your university email address on the form.
+
+ * Chapter 1 [Rmd](https://OTexts.com/fpp3/solutions/Chapter1.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter1.html)
+ * Chapter 2 [Rmd](https://OTexts.com/fpp3/solutions/Chapter2.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter2.html)
+ * Chapter 3 [Rmd](https://OTexts.com/fpp3/solutions/Chapter3.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter3.html)
+ * Chapter 4 [Rmd](https://OTexts.com/fpp3/solutions/Chapter4.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter4.html)
+ * Chapter 5 [Rmd](https://OTexts.com/fpp3/solutions/Chapter5.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter5.html)
+ * Chapter 7 [Rmd](https://OTexts.com/fpp3/solutions/Chapter7.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter7.html)
+ * Chapter 8 [Rmd](https://OTexts.com/fpp3/solutions/Chapter8.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter8.html)
+ * Chapter 9 [Rmd](https://OTexts.com/fpp3/solutions/Chapter9.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter9.html)
+ * Chapter 10 [Rmd](https://OTexts.com/fpp3/solutions/Chapter10.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter10.html)
+ * Chapter 11 [Rmd](https://OTexts.com/fpp3/solutions/Chapter11.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter11.html)
+ * Chapter 12 [Rmd](https://OTexts.com/fpp3/solutions/Chapter12.Rmd) [html](https://OTexts.com/fpp3/solutions/Chapter12.html)
+
+### Slides {-}
+
+[Rob Hyndman's slides](https://github.com/robjhyndman/ETC3550Slides/releases/tag/2022) for a course based on this book are available via github. You are welcome to fork and adapt these slides for your own purposes. You will at least need to remove the Monash University branding. If you spot an error, please [let us know](https://github.com/robjhyndman/ETC3550Slides/issues).
+
+# Appendix: Reviews {-}
+
+ * [Amazon reviews](http://www.amazon.com/Forecasting-principles-practice-Rob-Hyndman/product-reviews/0987507109/?tag=otexts-21)
+ * [Review from Sandro Saitta in Swiss Analytics, April 2015, p.5. Republished at Data Mining Research.](https://OTexts.com/fpp2/extrafiles/SwissAnalytics201501.pdf)
+ * [Review from Steve Miller on Information Management, April 2015](https://web.archive.org/web/20200220174633/https://www.information-management.com/opinion/business-analytics-and-forecasting-revisited)
+ * [Review from Stephan Kolassa in Foresight, Fall 2010.](extrafiles/Kolassa-review.pdf)
+
+### Testimonials from fellow educators {-}
+
+*Added August 2020*
+
+> "This book is an essential resource for students and practitioners alike. It takes a fresh look on important time series and forecasting concepts. The illustration of theoretical concepts in R is invaluable: it not only helps readers gain hands-on experience but also makes learning the material more fun. I enjoyed teaching from the book, and my students loved the class!"
+
+> "This text provides a wonderful overview of time series methods for the practitioner.  Indeed it is an excellent book for training MBAs and MSBAs in the basics of using Time Series models which served as an elective class in both programs.  The examples are easy to follow and the R-scripts work well and are effective.  The explanation of the methods is clear and concise.  I'm sure it helped me win a teaching award!"
+
+> "I have been teaching financial econometrics for over 10 years and FPP is one of the best applied books I have come across. It encapsulates a sound introduction to time series forecasting, capturing the statistical principles via coherent “learning by doing” processes in the R language.  Feedback from former students suggests it is always a useful reference for them as they start their career in data analytics and financial forecasting. Finally, the authors are very approachable and have provided fantastic help and guidance on teaching time series forecasting."
+
+> "The text is a great resource as at provides a hands on approach to learning forecasting. I wish more texts would follow this format and philosophy."
+
+> "This is a great online textbook. I used several sections for my own course which introduces forecasting techniques for time series in the energy field, and I found the material, including the examples and exercises, extremely helpful. Thank you for the great effort of compiling this resource!"
+
+> "This book provides students with little knowledge of mathematics or statistics with an understanding of forecasting methods through an accessible, well-written and practice-oriented presentation. This book is a must for my students following a Master in Business Administration."
+
+> "I use this textbook for a short workshop course on forecasting for practitioners, and the structure of the book - overview of topics followed by examples in R really helps my students understand concepts well. Highly recommended."
+
+> "After having been introduced to the world of forecasting myself as a student with the book 'Forecasting: methods and applications' (Makridakis, Wheelwright & Hyndman, 1998), I have been using the successor 'Forecasting Principles & Practice' of Rob Hyndman and George Athanasopoulos for master students in Business Engineering and Business Administration for many years now. It is a very accessible book, which is very easy to use due to its online format, and it is always kept up to date. The students very much appreciate the seamless intertwining of the theory, the many examples and the applications in R. The book is ideal to introduce students to the most important forecasting techniques through interesting examples, with a healthy balance between theoretical depth and relevant applications."
+
+> "I chose it as a prescribed text book for the Business Forecasting course, which is a core course for Masters of Information Technology and Analytics program in our Business School. Excellent book IMHO."
+
+> "The book covers basic forecasting tools, like exponential smoothing, and more complex forecasting methods. All with  practical  R examples such that the students after the course are well prepared for a future in practical forecasting. The book is also very well received by the students."
+
+> "This book is a great support for students and teachers. With its focus on forecasting and the practical applications in R it is indispensable for business students at our university. And the integration with tidyverse is highly appreciated. Thank You!"
+
+### Testimonials from practitioners and students {-}
+
+- Practitioner, August 2020.
+
+  > The book allows someone like me, a complete beginner in forecasting, to learn, gain confidence, and practice skills that are not only valuable, but greatly interesting. Within the realm of forecasting, I'm not sure where I'd be without this wonderful resource made available to the public.
+
+- [ETC3550, Applied forecasting](https://handbook.monash.edu/2020/units/ETC3550?year=2020) student, Semester 1, 2020.
+
+  > Forecasting: Principles and Practice was a pleasant surprise right from the beginning. It is very rare to have such plentiful amount of information available for free within the University environment. Allowing students such as myself to gain free access is something that encourages individuals to read through and learn more about the subject. Furthermore, the easy to use online format made this one of (if not) the most accessible University textbook I’ve read. Moreover, the practicality and hands on approach with direct examples (and real-world data) reinforces concepts in an enjoyable way. Being able to show the applications of what you are learning interested me to delve deeper and foster a curious attitude towards each topic. I also appreciated the concise nature which allowed me to read without feeling overloaded or exhausted. Overall, a fantastic resource for those with even the slightest interest in forecasting and data science.
+
+- [ETF3231, Business forecasting](https://handbook.monash.edu/2020/units/ETF3231?year=2020) student, Semester 1, 2020.
+
+  > The textbook used in the Business forecasting course is an online book that contains all the materials seen in class. The course content is based on slides but the book is a good additional support. It has been very useful for me to be able to reiterate certain points that I had less understood during the lecture. Moreover, the book is very well constructed, and the content well explained with practical examples, as seen in the course, which made my study very smooth. Finally, the exercises practised during the tutorials are from the textbook. I would recommend everyone to browse the book for the more complicated points of the material!
+
+# Translations {-}
+
+A [**Chinese version**](https://otexts.com/fppcn) of the 2nd edition of this book is available, thanks to [Professor Yanfei Kang](https://yanfei.site/) and [Professor Feng Li](https://feng.li/), and their students.
+
+A [**Korean version**](https://otexts.com/fppkr) of the 2nd edition of this book is available, thanks to [Dr Daniel Young Ho Kim](http://danielykim.me/).
+
+A [**Japanese version**](https://otexts.com/fppjp) of the 3rd edition of this book is available, thanks to [Mitsuo Shiota](https://mitsuoxv.rbind.io/) and [Professor Tomoo Inoue](https://cv01.ufinity.jp/seikei/?action=pages_view_main&active_action=cvclient_view_main_init&display_type=cv&cvid=tomoo-inoue&type=presentations&page=2&num=5&block_id=147&lang=english).
+
+A [**Greek version**](https://otexts.com/fppgr) of the 3rd edition of this book is available, thanks to [Dr Ioannis Nikas](http://tourism.upatras.gr/nikas/) and [Dr Athanasios Koutras](http://www.thanasiskoutras.com).
+
+An [**Italian version**](https://otexts.com/fppit) of the 3rd edition of this book is available, thanks to [Professor Domenico Vistocco](http://domenicovistocco.it/) and [Professor Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/), and their colleagues and students at the University of Naples Federico II and the University of Padua.
+
+If anyone is interested in creating a translation of the book into their own language, please contact [Rob Hyndman](mailto:Rob.Hyndman@monash.edu).
+
+# About the authors {-}
+
+![](figs/Hyndman.png) [**Rob J Hyndman**](https://robjhyndman.com) is Professor of Statistics and Head of the Department of Econometrics and Business Statistics at Monash University, Australia. From 2005-2018 he was Editor-in-Chief of the *International Journal of Forecasting*. He is author of 6 books and over 200 research papers, and an elected Fellow of the Australian Academy of Science, the Academy for the Social Sciences in Australia, and the International Institute of Forecasters. For over 35 years, Rob has maintained an active consulting practice, assisting hundreds of companies and organisations on forecasting problems. He has won awards for his research, teaching, consulting and graduate supervision.
+
+![](figs/Athanasopoulos.png) [**George Athanasopoulos**](https://research.monash.edu/en/persons/george-athanasopoulos) is a Professor, Director of Education, and Deputy Head in the Department of Econometrics and Business Statistics at Monash University, Australia. He is also the President of the International Institute of Forecasters. George has received multiple awards and distinctions for his research and teaching. He is on the Editorial Boards of the *Journal of Travel Research* and the *International Journal of Forecasting*.
+
+# Buy a print version {-}
+
+<table>
+  <td style="width:60%">
+<img src="figs/fpp3_front_cover.jpg" width='100%' align='left' style='padding-right: 30px;'></td>
+<td style="width:40%">
+
+### Paperback {-}
+
+<a href="https://www.amazon.com.au/dp/0987507133?tag=otexts04-22"><button class="btn">Amazon Australia</button></a><br>
+<a href="https://www.amazon.ca/dp/0987507133?tag=otexts08-20"><button class="btn">Amazon Canada</button></a><br>
+<a href="https://www.amazon.fr/dp/0987507133?tag=otexts0e-21"><button class="btn">Amazon France</button></a><br>
+<a href="https://www.amazon.de/dp/0987507133?tag=otexts0c-21"><button class="btn">Amazon Germany</button></a><br>
+<a href="https://www.amazon.it/dp/0987507133?tag=otexts08-21"><button class="btn">Amazon Italy</button></a><br>
+<a href="https://www.amazon.co.jp/dp/0987507133?tag=otexts-22"><button class="btn">Amazon Japan</button></a><br>
+<a href="https://www.amazon.es/dp/0987507133?tag=otexts07-21"><button class="btn">Amazon Spain</button></a><br>
+<a href="https://www.amazon.co.uk/dp/0987507133?tag=wwwotextsorg-21"><button class="btn">Amazon UK</button></a><br>
+<a href="https://www.amazon.com/dp/0987507133?tag=otexts20"><button class="btn">Amazon USA</button></a><br>
+<br>
+
+*(As an Amazon Associate, OTexts earns from purchases obtained by clicking these links.)*
+
+<!-- ### Downloadable version {-}
+
+<a href="https://www.amazon.com/gp/product/B07G6NRC3M"><button class="btn">Buy for kindle</button></a><br><br>
+
+<a href="https://play.google.com/store/books/details?id=_bBhDwAAQBAJ"><button class="btn">Buy ebook on Google</button></a>
+</p>
+-->
+
+</td></table>
+
+# Report an error {-}
+
+**Got a problem with *Forecasting: Principles and Practice*?**
+
+If you're looking for help with your forecasting, please ask at [rstd.io/forecast-package](http://rstd.io/forecast-package). But if you've found a problem with this book, we'd love to know about it.
+
+<script type="text/javascript" src="https://form.jotform.com/jsform/211622010075842"></script>
+
+# Bibliography {-}

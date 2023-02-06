@@ -1,0 +1,6 @@
+```{r refsheader, echo=FALSE}
+cover <- ifelse(html, "htmlrefs.Rmd", "donothing.Rmd")
+```
+
+```{r cover, child=cover, dependson='refsheader'}
+```

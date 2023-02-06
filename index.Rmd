@@ -1,0 +1,82 @@
+---
+knit: "bookdown::render_book"
+title: "Forecasting: Principles&nbsp;and&nbsp;Practice <font size=-1>(3rd ed)</font>"
+author:
+  name: "Rob J Hyndman and George Athanasopoulos"
+  affiliation: Monash University, Australia
+site: bookdown::bookdown_site
+output:
+  bookdown::gitbook:
+    highlight: tango
+bibliography: [FPP.bib]
+biblio-style: authoryear-comp
+geometry: left=1.3cm
+subparagraph: yes
+link-citations: yes
+description: "3rd edition"
+url: 'https\://Otexts.com/fpp3/'
+twitter-handle: robjhyndman
+cover-image: /figs/fpp3_front_cover.jpg
+---
+
+# Preface {-}
+
+<iframe width="750" height="422" src="https://www.youtube.com/embed/uwKiT1o1TkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+```{r cover, child=ifelse(html, "htmlcover.Rmd", "addprefaceheader.Rmd")}
+```
+
+This textbook is intended to provide a comprehensive introduction to forecasting methods and to present enough information about each method for readers to be able to use them sensibly. We don't attempt to give a thorough discussion of the theoretical details behind each method, although the references at the end of each chapter will fill in many of those details.
+
+The book is written for three audiences: (1)&nbsp;people finding themselves doing forecasting in business when they may not have had any formal training in the area; (2)&nbsp;undergraduate students studying business; (3)&nbsp;MBA students doing a forecasting elective. We use it ourselves for masters students and third-year undergraduate students at Monash University, Australia.
+
+For most sections, we only assume that readers are familiar with introductory statistics, and with high-school algebra. There are a couple of sections that also require knowledge of matrices, but these are flagged.
+
+At the end of each chapter we provide a list of "further reading". In general, these lists comprise suggested textbooks that provide a more advanced or detailed treatment of the subject. Where there is no suitable textbook, we suggest journal articles that provide more information.
+
+We use R\index{R} throughout the book and we intend students to learn how to forecast with R. R is free and available on almost every operating system. It is a wonderful tool for all statistical analysis, not just for forecasting. See the [Using R appendix][Appendix: Using R] for instructions on installing and using R.
+
+All R examples in the book assume you have loaded the `fpp3` package\index{fpp3 package@\texttt{fpp3} package} first:
+
+```r
+library(fpp3)
+```
+
+```{r startup, child=ifelse(html, "htmlstartup.Rmd", "latexstartup.Rmd")}
+```
+
+This will load the relevant data sets, and attach several packages as listed above. These include several [`tidyverse`](https://tidyverse.org) packages,\index{tidyverse packages@\texttt{tidyverse} packages} and packages to handle time series and forecasting in a "tidy" framework.\index{tsibble package@\texttt{tsibble} package}\index{tsibbledata package@\texttt{tsibbledata} package}\index{fable package@\texttt{fable} package}\index{feasts package@\texttt{feasts} package}
+
+The above output also shows the package versions we have used in compiling this edition of the book. Some examples in the book will not work with earlier versions of the packages.
+
+Finally, the output lists some conflicts showing which function will be preferenced when a function of the same name is in multiple packages.
+
+The book is different from other forecasting textbooks in several ways.
+
+ * It is free and online, making it accessible to a wide audience.
+ * It uses R, which is free, open-source, and extremely powerful software.
+ * The online version is continuously updated. You don't have to wait until the next edition for errors to be removed or new methods to be discussed. We will update the book frequently.
+ * There are dozens of real data examples taken from our own consulting practice. We have worked with hundreds of businesses and organisations helping them with forecasting issues, and this experience has contributed directly to many of the examples given here, as well as guiding our general philosophy of forecasting.
+ * We emphasise graphical methods more than most forecasters. We use graphs to explore the data, analyse the validity of the models fitted and present the forecasting results.
+
+### Changes in the third edition {-}
+
+The most important change in edition 3 of the book is that we use the `tsibble` and `fable` packages rather than the `forecast` package. This allows us to integrate closely with the `tidyverse` collection of packages. As a consequence, we have replaced many examples to take advantage of the new facilities.\index{tidyverse packages@\texttt{tidyverse} packages}\index{tsibble package@\texttt{tsibble} package}\index{fable package@\texttt{fable} package}
+
+We have also added some new material on time series features, and reorganised the content so Chapters \@ref(graphics)--\@ref(features) discuss exploratory analysis of time series, before we introduce any forecasting methods. This is because we should first have a good understanding of our time series, their patterns and characteristics, before we attempt to build any models and produce any forecasts.
+
+Helpful readers of the earlier versions of the book let us know of any typos or errors they had found. These were updated immediately online. No doubt we have introduced some new mistakes, and we will correct them online as soon as they are spotted. Please continue to [let us know](https://otexts.com/fpp3/report-an-error.html) about such things.
+
+If you have questions about using the R packages discussed in this book, or about forecasting in general, please ask on the [RStudio Community website](https://bit.ly/fpp3help).
+
+&nbsp;
+
+Happy forecasting!
+
+Rob J Hyndman and George Athanasopoulos
+
+May 2021
+
+```{r finalnotes, child=ifelse(html, "htmlnotes.Rmd","donothing.Rmd")}
+```

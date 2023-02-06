@@ -1,0 +1,37 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./">Forecasting: Principles and Practice</a></li>
+      after: |
+        <li><a href="https://OTexts.com" target="blank">Published by OTexts™ with bookdown</a></li>
+  includes:
+      in_header: [mathjax-config.html,google_analytics.html]
+  keep_md: yes
+  split_by: section
+  toc_depth: 2
+  fig_caption: yes
+  fig_height: 5.3
+  fig_width: 8.5
+  cover-image: "/figs/fpp3_front_cover.jpg"
+  favicon: "https://otexts.com/favicon.ico"
+  pandoc_args:
+    --csl=apa-single-spaced.csl
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+    after_body: index.tex
+  latex_engine: pdflatex
+  citation_package: biblatex
+  dev: "cairo_pdf"
+  keep_tex: yes
+  pandoc_args:
+    --top-level-division=chapter
+  toc_depth: 2
+  toc_unnumbered: yes
+  fig_height: 4.2
+  fig_width: 6.5
+  highlight_bw: no
+bookdown::epub_book: default

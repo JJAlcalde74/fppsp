@@ -1,0 +1,3 @@
+```{r htmlstartup, echo=FALSE, cache=FALSE}
+cat(readLines('startuphtml.txt'), sep = '\n')
+```

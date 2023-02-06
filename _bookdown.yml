@@ -1,0 +1,22 @@
+book_filename: "fpp"
+chapter_name: "Chapter "
+before_chapter_script: ["before-each-chapter.R"]
+rmd_files: ["index.Rmd"
+ ,"01-intro.Rmd"
+ ,"02-graphics.Rmd"
+ ,"03-decomposition.Rmd"
+ ,"04-features.Rmd"
+ ,"05-toolbox.Rmd"
+ ,"06-judgmental.Rmd"
+ ,"07-regression.Rmd"
+ ,"08-exponential-smoothing.Rmd"
+ ,"09-arima.Rmd"
+ ,"10-dynamic-regression.Rmd"
+ ,"11-hierarchical-forecasting.Rmd"
+ ,"12-advanced.Rmd"
+ ,"13-practical.Rmd"
+ ,"UsingR.Rmd"
+ ,"references.Rmd"
+]
+output_dir: "public"
+delete_merged_file: true

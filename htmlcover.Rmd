@@ -1,0 +1,8 @@
+<p style='float:right; width:50%; margin-left:20px;'>
+  <img src="figs/fpp3_front_cover.jpg" width='100%'>
+    <a href="buy-a-print-version.html">
+      <button type="submit" class="btn btn-success btn-lg">Buy a print version</button>
+   </a>
+</p>
+
+Welcome to our online textbook on forecasting.

@@ -1,0 +1,6 @@
+Use the slider below to see the effect of varying the number of bootstrap samples (`times`) on the forecast distribution:
+
+```{r BootstrapShiny, echo=FALSE}
+knitr::include_app("https://ebsmonash.shinyapps.io/BootstrapDistributions/",
+  height = "1050px")
+```

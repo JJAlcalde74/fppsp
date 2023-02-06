@@ -1,0 +1,7 @@
+Table: (\#tab:ssm) State space equations for each of the models in the ETS framework.
+
+------------------------------------
+```{r ssm, echo=FALSE}
+knitr::include_graphics("figs/statespacemodels-1.png")
+```
+------------------------------------

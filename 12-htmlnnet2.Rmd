@@ -1,0 +1,3 @@
+```{r nnet2, fig.cap="A neural network with four inputs and one hidden layer with three hidden neurons.", echo=FALSE, out.width="90%"}
+knitr::include_graphics("figs/nnet2-1.png")
+```

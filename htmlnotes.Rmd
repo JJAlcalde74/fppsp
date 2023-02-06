@@ -1,0 +1,11 @@
+***
+
+To cite the online version of this book, please use the following:
+
+> Hyndman, R.J., & Athanasopoulos, G. (2021) *Forecasting: principles and practice*, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on `<current date>`.
+
+&nbsp;
+
+> This online version of the book was last updated on `r format(Sys.time(), "%e %B %Y")`.
+>
+> The print version of the book ([available from Amazon](/fpp3/buy-a-print-version.html)) was last updated on 31 May 2021.

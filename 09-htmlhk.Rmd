@@ -1,0 +1,47 @@
+The `ARIMA()` function in the `fable` package uses a variation of the Hyndman-Khandakar algorithm [@HK08], which combines unit root tests, minimisation of the AICc and MLE to obtain an ARIMA model. The arguments to `ARIMA()` provide for many variations on the algorithm. What is described here is the default behaviour.
+
+<table>
+  <tr><th><b>Hyndman-Khandakar algorithm for automatic ARIMA modelling</b></th></tr>
+  <tr style="background-color: #e6e6e6;"><td >
+<ol style="list-style-type: decimal">
+<li>The number of differences <span class="math inline">\(0 \le d\le 2\)</span> is determined using repeated KPSS tests.</li>
+</ol>
+</td></tr>
+<tr style="background-color: #e6e6e6;"><td><ol style="list-style-type: decimal" start=2>
+<li>The values of <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> are then chosen by minimising the AICc after differencing the data <span class="math inline">\(d\)</span> times. Rather than considering every possible combination of <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span>, the algorithm uses a stepwise search to traverse the model space.
+</li></ol></td></tr>
+<tr style="background-color: #e6e6e6;"><td>
+<ol style="list-style-type: lower-alpha; margin-left: 3.4em;">
+<li>Four initial models are fitted:
+<ul>
+<li>ARIMA<span class="math inline">\((0,d,0)\)</span>,</li>
+<li>ARIMA<span class="math inline">\((2,d,2)\)</span>,</li>
+<li>ARIMA<span class="math inline">\((1,d,0)\)</span>,</li>
+<li>ARIMA<span class="math inline">\((0,d,1)\)</span>.</li>
+</ul>
+A constant is included unless <span class="math inline">\(d=2\)</span>. If <span class="math inline">\(d \le 1\)</span>, an additional model is also fitted:
+<ul>
+<li>ARIMA<span class="math inline">\((0,d,0)\)</span> without a constant.</li>
+</ul></li>
+</ol></td></tr>
+<tr style="background-color: #e6e6e6;"><td>
+<ol style="list-style-type: lower-alpha; margin-left: 3.4em;" start=2>
+<li>The best model (with the smallest AICc value) fitted in step (a) is set to be the “current model”.</li>
+</ol></td></tr>
+<tr style="background-color: #e6e6e6;"><td>
+<ol style="list-style-type: lower-alpha; margin-left: 3.4em;" start=3>
+<li>Variations on the current model are considered:
+<ul>
+<li>vary <span class="math inline">\(p\)</span> and/or <span class="math inline">\(q\)</span> from the current model by <span class="math inline">\(\pm1\)</span>;</li>
+<li>include/exclude <span class="math inline">\(c\)</span> from the current model.
+</li></ul>
+The best model considered so far (either the current model or one of these variations) becomes the new current model.
+</li>
+</ol></td></tr>
+<tr style="background-color: #e6e6e6;"><td>
+<ol style="list-style-type: lower-alpha; margin-left: 3.4em;" start=4>
+<li>Repeat Step 2(c) until no lower AICc can be found.</li>
+</ol></li>
+</ol>
+</td></tr>
+</table>
