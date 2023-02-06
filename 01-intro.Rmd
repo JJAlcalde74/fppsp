@@ -1,11 +1,11 @@
-# Getting started {#intro}
+# Comenzando {#intro}
 
-Forecasting has fascinated people for thousands of years, sometimes being considered a sign of divine inspiration, and sometimes being seen as a criminal activity. The Jewish prophet Isaiah wrote in about 700 BC
+La adivinación ha fascinado a la gente durante miles de años, algunas veces considerándola un signo de inspiración divina y otras considerándola un actividad criminal. El profeta Isaias escribió alrededor del año 700 AC:
 
-> *Tell us what the future holds, so we may know that you are gods.*<br>
-> (Isaiah 41:23)
+> *Dinoss lo que nos aguarda en el futuro, así sabremos que sois dioses.*<br>
+> (Isaias 41:23)
 
-One hundred years later, in ancient Babylon, forecasters would foretell the future based on the distribution of maggots in a rotten sheep’s liver. Around the same time, people wanting forecasts would journey to Delphi in Greece to consult the Oracle,\index{Delphic Oracle} who would provide her predictions while intoxicated by ethylene vapours. Forecasters had a tougher time under the emperor Constantius, who issued a decree in AD357 forbidding anyone “to consult a soothsayer, a mathematician, or a forecaster $\dots$ May curiosity to foretell the future be silenced forever.” A similar ban on forecasting occurred in England in 1736 when it became an offence to defraud by charging money for predictions. The punishment was three months’ imprisonment with hard labour!
+Cien años después, en la antigua Babilonia, los adivinos predecían el futuro basándose en la distribución de gusanos en el hígado podrido de una oveja. En ese mimso tiempo, la gente viajaba a Delfos, en Grecia, para consultar al Oráculo, quien les proporcionaba sus predicciones mientras se intoxicaba por las emanaciones de vapores de etileno. Los adivinos pasaron un tiempo duro bajo el emperador Constantino, quien emitió un decreto en el años 357 DC prohibiendo a cualquier persona "consultar a adivino, matemático o vidente$\dots$ Que la curiosidad por predecir el futuro quede silenciada para siempre.” Una prohibición similiar sobre la adivinación se dió en Inglaterrra en 1736 cuando se convirtió de delito se convirtió en delito estafar cobrando dinero por las predicciones ¡La pena era de tres meses de prisión con trabajos forzados!
 
 The varying fortunes of forecasters arise because good forecasts can seem almost magical, while bad forecasts may be dangerous. Consider the following famous predictions about computing.
 
