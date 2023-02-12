@@ -7,14 +7,14 @@ La adivinación ha fascinado a la gente durante miles de años, algunas veces co
 
 Cien años después, en la antigua Babilonia, los adivinos predecían el futuro basándose en la distribución de gusanos en el hígado podrido de una oveja. En ese mimso tiempo, la gente viajaba a Delfos, en Grecia, para consultar al Oráculo, quien les proporcionaba sus predicciones mientras se intoxicaba por las emanaciones de vapores de etileno. Los adivinos pasaron un tiempo duro bajo el emperador Constantino, quien emitió un decreto en el años 357 DC prohibiendo a cualquier persona "consultar a adivino, matemático o vidente$\dots$ Que la curiosidad por predecir el futuro quede silenciada para siempre.” Una prohibición similiar sobre la adivinación se dió en Inglaterrra en 1736 cuando se convirtió de delito se convirtió en delito estafar cobrando dinero por las predicciones ¡La pena era de tres meses de prisión con trabajos forzados!
 
-The varying fortunes of forecasters arise because good forecasts can seem almost magical, while bad forecasts may be dangerous. Consider the following famous predictions about computing.
+La suerte variable de los pronosticadores se debe a que los buenos pronósticos pueden parecer casi mágicos, mientras que los malos pueden ser peligrosos. Consideremos las siguientes predicciones famosas sobre la informática.
 
-  - *I think there is a world market for maybe five computers.*
-    (Chairman of IBM, 1943)
-  - *Computers in the future may weigh no more than 1.5 tons.*
+  - *Creo que hay un mercado mundial para unos cinco ordenadores.*
+    (Presidente de IBM, 1943)
+  - *Los ordenadores del futuro no pesarán más de 1,5 toneladas..*
     (Popular Mechanics, 1949)
-  - *There is no reason anyone would want a computer in their home.*
-    (President, DEC, 1977)
+  - *No hay ninguna razón para que alguien quiera un ordenador en su casa..*
+    (President de DEC, 1977)
 
 The last of these was made only three years before IBM produced the first personal computer. Not surprisingly, you can no longer buy a DEC computer. Forecasting is obviously a difficult activity, and businesses that do it well have a big advantage over those whose forecasts fail.
 
