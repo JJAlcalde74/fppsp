@@ -20,6 +20,10 @@ The last of these was made only three years before IBM produced the first person
 
 In this book, we will explore the most reliable methods for producing forecasts. The emphasis will be on methods that are replicable and testable, and have been shown to work.
 
+La última de estas predicciones de hizo sólo tres años antes de que IBM produjera el primer ordenador personal. No es sorprendente que ya no se pueda comprar un ordenador DEC. La predicciónn es, obviamente, una actividad difícil, y las empresas que lo hacen bien tienen una gran ventaja sobre aquellas cuyas predicciones fracasan.
+
+En este libro exploraremos los métodos más fiables para elaborar previsiones. Se hará hincapié en los métodos que se pueden reproducir, probar y que han demostrado su eficacia.
+
 ## What can be forecast?
 
 Forecasting is required in many situations: deciding whether to build another power generation plant in the next five years requires forecasts of future demand; scheduling staff in a call centre next week requires forecasts of call volumes; stocking an inventory requires forecasts of stock requirements. Forecasts can be required several years in advance (for the case of capital investments), or only a few minutes beforehand (for telecommunication routing). Whatever the circumstances or time horizons involved, forecasting is an important aid to effective and efficient planning.
